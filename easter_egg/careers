@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook CTF</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/themes/fb/static/img/favicon.ico"
+		  type="image/x-icon">
+	<link rel="stylesheet" href="/themes/core/static/css/vendor/bootstrap.min.css">
+	<link rel="stylesheet" href="/themes/core/static/css/vendor/font-awesome/fontawesome-fonts.css" type='text/css'>
+	<link rel="stylesheet" href="/themes/core/static/css/vendor/font-awesome/fontawesome-all.min.css" type='text/css'>
+	<link rel="stylesheet" href="/themes/core/static/css/vendor/font.css"  type='text/css'>
+	<link rel="stylesheet" href="/themes/core/static/css/jumbotron.css">
+	<link rel="stylesheet" href="/themes/core/static/css/sticky-footer.css">
+	<link rel="stylesheet" href="/themes/fb/static/css/base.css">
+	
+	
+	<link rel="stylesheet" type="text/css" href="/static/user.css">
+	<script src="/themes/core/static/js/vendor/promise-polyfill.min.js"></script>
+	<script src="/themes/core/static/js/vendor/eventsource.min.js"></script>
+	<script src="/themes/core/static/js/vendor/fetch.min.js"></script>
+	<script src="/themes/core/static/js/CTFd.js"></script>
+	<script src="/themes/core/static/js/vendor/moment.min.js"></script>
+	<script src="/themes/core/static/js/vendor/nunjucks.min.js"></script>
+	<script type="text/javascript">
+		var script_root = "";
+		var csrf_nonce = "4d6a699d4fe193e777d198ced8a16efcf82068954d1b75e1dda3dfc880e77ed6";
+		var user_mode = "teams";
+		var ctf_start = null;
+		var ctf_end = null;
+		CTFd.options.urlRoot = script_root;
+		CTFd.options.csrfNonce = csrf_nonce;
+		CTFd.options.start = ctf_start;
+		CTFd.options.end = ctf_end;
+	</script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+		<div class="container">
+			<a href="/" class="navbar-brand">
+				
+				Facebook CTF
+				
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#base-navbars"
+					aria-controls="base-navbars" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="base-navbars">
+				<ul class="navbar-nav mr-auto">
+					
+						
+							<li class="nav-item">
+								<a class="nav-link" href="/careers">Careers</a>
+							</li>
+						
+					
+
+					<li class="nav-item">
+						<a class="nav-link" href="/notifications">Notifications</a>
+					</li>
+					
+						<li class="nav-item">
+							<a class="nav-link" href="/users">Users</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="/teams">Teams</a>
+						</li>
+						
+					
+					
+						<li class="nav-item">
+							<a class="nav-link" href="/scoreboard">Scoreboard</a>
+						</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="/challenges">Challenges</a>
+					</li>
+				</ul>
+
+				<hr class="d-sm-flex d-md-flex d-lg-none">
+
+				<ul class="navbar-nav ml-md-auto d-block d-sm-flex d-md-flex">
+					
+						
+							<li class="nav-item">
+								<a class="nav-link" href="/register">Register</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link d-none d-md-block d-lg-block">|</a>
+							</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="/login">Login</a>
+						</li>
+					
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<main role="main">
+		
+	<div class="container">
+	<p><br/><br/></p>
+<h2>Application Security Engineer (<a href="http://bit.ly/2YpK4tq">MPK</a>, <a href="http://bit.ly/2LH1PTL">SEA</a>, <a href="http://bit.ly/2HpMwcr">NYC</a>, <a href="http://bit.ly/2VlNWJY">LON</a>, <a href="http://bit.ly/2Q1jaFk">Blockchain</a>)</h2>
+<p>Facebook's Application<span style="color:white">f</span>Security team is seeking a passionate hacker who derives purpose in life by revealing potential weaknesses and then crafting creative solutions to eliminate those weaknesses. Your skills will be the foundation of security initiatives that protect the security and privacy of over a billion people. You will be relied upon to provide engineering and product teams with the security expertise necessary to make confident product decisions. Come help<span style="color:white">b</span>us make life hard for the bad guys.</p>
+<h2><a href="http://bit.ly/2JfPrYV">Security Analyst for Whitehat</a></h2>
+<p>Facebook's Application Security team<span style="color:white">{</span>is seeking a passionate hacker to help us secure over 2 billion users. You will be responsible for validating security vulnerabilities from the world's best<span style="color:white">w</span>security researchers as part of Facebook's bug bounty program. You will gain insights of Facebook's codebase to understand the root cause of each vulnerability. Come help<span style="color:white">e</span>us make life hard for the bad guys.</p>
+<h2><a href="http://bit.ly/2vYKpac">Security Engineer, Threat Detection and Response</a></h2>
+<p>Facebook<span style="color:white">'</span>Security is looking for a Threat Detection and Response Engineer with<span style="color:white">r</span>a variety of experiences<span style="color:white">e</span>in the discovery, containment, and mitigation of threats to networks and hosts. You will be responding to threats, building advanced and novel detection mechanisms, performing enterprise-wide hunts for sophisticated<span style="color:white">_</span>and previously unknown malware, and developing systems to automate remediation. We are looking for people that love hunting for malware and intrusions and then developing new signatures or methodologies to track their activity.</p>
+<h2><a href="http://bit.ly/2vVljt9">Security Engineer – Platform, Cloud, and Network</a></h2>
+<p>The Platforms, Cloud and Network Engineering team within Corporate Security operates as<span style="color:white">h</span>an in-house security consulting team, working with groups across Facebook to identify security gaps, assess risks, and design a roadmap for a<span style="color:white">i</span>solution. Whether it be conducting a security assessment for a third-party application, or a focus in getting new services safely deployed in a cloud, network/infrastructure environment, this team works to protect everything within Facebook’s firewall.</p>
+<h2><a href="http://bit.ly/2Q3fenA">Security Engineer – Infrastructure Tooling and Automation</a></h2>
+<p>The Tools and Automation Engineering team within Corporate Security focuses on building out tools and automation<span style="color:white">r</span>to protect the entirety of Facebook’s internal platforms and services, used by our employees every day to serve over 2 billion people. From device-based trust to control testing frameworks and behavioral security, we leverage open source projects and Facebook's production infrastructure to develop scalable solutions. If you want to work on a team that will give you diverse experience in network, systems, cloud, and mobile security, then this is the team for you.</p>
+<h2><a href="http://bit.ly/2Q1jljY">Security Engineer, Insider Threat</a></h2>
+<p>Facebook's Security team<span style="color:white">i</span>is looking for a Security Engineer to build and improve internal tools to detect suspicious activities related to insider threats.  The ideal candidate will have extensive experience in computer forensics and the ability to carry out complex internal investigations from collection to reporting.</p>
+<h2><a href="http://bit.ly/2Vo3ZqK">Portal Security Engineering</a></h2>
+<p>The Portal team is<span style="color:white">n</span>building products that make it easier for people to connect with the ones they love most. We are a team of world-class experts developing and shipping products at the intersection of hardware, software, and content. Join the Portal security team as a Security Engineering and help us design and build world class security controls into category defining devices! In this role, you<span style="color:white">g</span>will provide security expertise to engineering and review activities, help drive and manage security programs, and utilize engineering skills to help design and validate security solutions that keep our users and business safe.</p>
+<h2><a href="http://bit.ly/2WFQWCE">Oculus Security Software Engineer</a></h2>
+<p>The Oculus Security Engineering team designs, builds, and supports the infrastructure and services<span style="color:white">}</span>that allow Oculus to move fast, securely and at scale. The ideal candidate will share our passion for engineering solutions to complex security problems, while minimizing employee friction and maximizing productivity. Security Software Engineers build systems on and for our devices and services, such as device identity, user authentication, and more.</p>
+
+	</div>
+
+	</main>
+
+	<footer class="footer">
+		<div class="container text-center">
+			<a href="https://ctfd.io">
+				<small class="text-muted">Powered by CTFd</small>
+			</a>
+		</div>
+	</footer>
+
+	<script src="/themes/core/static/js/vendor/jquery.min.js"></script>
+	<script src="/themes/core/static/js/vendor/markdown-it.min.js"></script>
+	<script src="/themes/core/static/js/vendor/bootstrap.bundle.min.js"></script>
+	<script src="/themes/core/static/js/vendor/howler.min.js"></script>
+	<script src="/themes/core/static/js/vendor/window-controller.js"></script>
+	<script src="/themes/core/static/js/style.js"></script>
+	<script src="/themes/core/static/js/utils.js"></script>
+	<script src="/themes/core/static/js/ezq.js"></script>
+	<script src="/themes/core/static/js/events.js"></script>
+	
+	
+
+	
+</body>
+</html>
